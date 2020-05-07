@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUA,UAAU;EACR,KAAK,EAXF,OAAO",
+"sources": ["color.scss"],
+"names": [],
+"file": "range.css"
+}

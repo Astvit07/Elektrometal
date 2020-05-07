@@ -1,0 +1,53 @@
+@import "color";
+
+.custom.btn {
+  &:hover, &:focus {
+    box-shadow: unset;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    box-shadow: unset;
+  }
+
+  &:not(:disabled):not(.disabled):active:focus,
+  &:not(:disabled):not(.disabled).active:focus {
+    box-shadow: unset;
+  }
+
+  height: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 5px;
+
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+
+  &.btn-danger {
+    background-color: $red;
+    border-color: $red;
+    color: $white-09;
+
+
+    &:active {
+      color: white;
+      background-color: $red;
+      border-color: $red;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $gray2;
+    border-color: $gray2;
+    color: $black;
+
+    &:active {
+      color: black;
+      background-color: $gray2;
+      border-color: $gray2;
+    }
+  }
+}
+

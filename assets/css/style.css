@@ -1,0 +1,428 @@
+/* line 11, ../sass/color.scss */
+.color-red {
+  color: #D9534F;
+}
+
+/* line 2, ../sass/select.scss */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  /*  background-color:transparent;
+    color:white;*/
+}
+
+/* line 8, ../sass/select.scss */
+.select2-dropdown {
+  background-color: white;
+  border: unset;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #CDCBCB;
+}
+/* line 16, ../sass/select.scss */
+.select2-dropdown .select2-results__options {
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+/* line 23, ../sass/select.scss */
+.select2-dropdown .select2-results__options .select2-results__option:hover, .select2-dropdown .select2-results__options .select2-results__option:active {
+  color: black;
+  background-color: #EEE;
+}
+/* line 27, ../sass/select.scss */
+.select2-dropdown .select2-results__options .select2-results__option:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 43, ../sass/select.scss */
+.select2 .select2-selection {
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  box-shadow: unset;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+/* line 53, ../sass/select.scss */
+.select2 .select2-selection:focus {
+  outline: unset !important;
+}
+
+/* line 62, ../sass/select.scss */
+.select2-container--default
+.select2-selection--single
+.select2-selection__rendered {
+  color: #404040;
+  line-height: 40px;
+}
+
+/* line 69, ../sass/select.scss */
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow {
+  height: 40px;
+  width: 35px;
+}
+
+/* line 76, ../sass/select.scss */
+.select2-search {
+  display: none;
+}
+
+/* line 81, ../sass/select.scss */
+.select2-container--default
+.select2-results__option[aria-selected=true] {
+  background-color: unset;
+}
+
+/* line 88, ../sass/select.scss */
+.select2-selection.select2-selection--single .select2-selection__arrow {
+  border-left: 1px solid #CDCBCB;
+  width: 40px !important;
+}
+/* line 92, ../sass/select.scss */
+.select2-selection.select2-selection--single b {
+  display: none;
+}
+/* line 96, ../sass/select.scss */
+.select2-selection.select2-selection--single[aria-expanded='true'] .select2-selection__arrow {
+  transform: rotate(180deg);
+  background: url("../img/arrows-down.svg") no-repeat center;
+  border-right: 1px solid #CDCBCB;
+  border-left: unset;
+}
+/* line 104, ../sass/select.scss */
+.select2-selection.select2-selection--single[aria-expanded='false'] .select2-selection__arrow {
+  background: url("../img/arrows-down.svg") no-repeat center;
+}
+
+/* line 113, ../sass/select.scss */
+.select2-container--default
+.select2-results__option--highlighted[aria-selected] {
+  background-color: white;
+  color: #404040;
+}
+
+/* line 3, ../sass/button.scss */
+.custom.btn {
+  height: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 4, ../sass/button.scss */
+.custom.btn:hover, .custom.btn:focus {
+  box-shadow: unset;
+}
+/* line 8, ../sass/button.scss */
+.custom.btn:not(:disabled):not(.disabled):active, .custom.btn:not(:disabled):not(.disabled).active {
+  box-shadow: unset;
+}
+/* line 13, ../sass/button.scss */
+.custom.btn:not(:disabled):not(.disabled):active:focus, .custom.btn:not(:disabled):not(.disabled).active:focus {
+  box-shadow: unset;
+}
+/* line 28, ../sass/button.scss */
+.custom.btn.btn-danger {
+  background-color: #D9534F;
+  border-color: #D9534F;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 34, ../sass/button.scss */
+.custom.btn.btn-danger:active {
+  color: white;
+  background-color: #D9534F;
+  border-color: #D9534F;
+}
+/* line 41, ../sass/button.scss */
+.custom.btn.btn-secondary {
+  background-color: #EEE;
+  border-color: #EEE;
+  color: #404040;
+}
+/* line 46, ../sass/button.scss */
+.custom.btn.btn-secondary:active {
+  color: black;
+  background-color: #EEE;
+  border-color: #EEE;
+}
+
+/* line 3, ../sass/navbar.scss */
+.navbar.custom {
+  height: 80px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 20px -8px rgba(194, 194, 194, 0.5);
+  margin-bottom: 25px;
+}
+/* line 10, ../sass/navbar.scss */
+.navbar.custom .collapse {
+  justify-content: flex-end;
+}
+/* line 12, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav {
+  align-items: center;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown {
+  border-left: 1px solid #CDCBCB;
+}
+/* line 17, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown .nav-link {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+/* line 21, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown .nav-link:after {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  border: unset;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url("../img/arrows-down.svg") no-repeat center;
+  background-size: 100%;
+}
+
+/* line 39, ../sass/navbar.scss */
+.dropdown-menu.show {
+  padding: 16px 0;
+}
+/* line 41, ../sass/navbar.scss */
+.dropdown-menu.show a {
+  padding: 6px 16px;
+  color: #404040;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+/* line 4, ../sass/range.scss */
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* line 10, ../sass/range.scss */
+input[type=range]:focus {
+  outline: none;
+}
+
+/* line 14, ../sass/range.scss */
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+  border-radius: 4px;
+  border: unset;
+}
+
+/* line 25, ../sass/range.scss */
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 2px solid #D9534F;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3px;
+}
+
+/* line 37, ../sass/range.scss */
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+}
+
+/* line 42, ../sass/range.scss */
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+  border-radius: 4px;
+  border: unset;
+}
+
+/* line 55, ../sass/range.scss */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 2px solid #D9534F;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* line 65, ../sass/range.scss */
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* line 75, ../sass/range.scss */
+input[type=range]::-ms-fill-lower {
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+  border: unset;
+  border-radius: 8px;
+  box-shadow: unset;
+}
+
+/* line 84, ../sass/range.scss */
+input[type=range]::-ms-fill-upper {
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+  border: unset;
+  border-radius: 8px;
+  box-shadow: unset;
+}
+
+/* line 92, ../sass/range.scss */
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 2px solid #D9534F;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* line 102, ../sass/range.scss */
+input[type=range]:focus::-ms-fill-lower {
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+}
+
+/* line 107, ../sass/range.scss */
+input[type=range]:focus::-ms-fill-upper {
+  background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
+}
+
+/* line 3, ../sass/heading.scss */
+.topic {
+  text-transform: uppercase;
+  color: rgba(64, 64, 64, 0.6);
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1.64px;
+}
+
+/* line 11, ../sass/heading.scss */
+.caption {
+  color: #404040;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+/* line 18, ../sass/heading.scss */
+.label {
+  color: rgba(64, 64, 64, 0.6);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 12px;
+}
+
+/* line 26, ../sass/heading.scss */
+h2, .h2 {
+  color: #D9534F;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 38px;
+}
+
+/* line 34, ../sass/heading.scss */
+h4, .h4 {
+  color: #D9534F;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+/* line 42, ../sass/heading.scss */
+h5, .h5 {
+  color: #D9534F;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+/* line 50, ../sass/heading.scss */
+h6, .h6 {
+  color: #D9534F;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+/* line 1, ../sass/default.scss */
+.wrapper {
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 20px -8px rgba(194, 194, 194, 0.5);
+}
+/* line 4, ../sass/default.scss */
+.wrapper.xl {
+  padding: 32px 90px;
+}
+
+@media (min-width: 1200px) {
+  /* line 10, ../sass/default.scss */
+  .container {
+    max-width: 1180px;
+  }
+}
+/* line 18, ../sass/default.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+  background-color: #F8F8F8;
+}
+
+/* line 22, ../sass/style.scss */
+.Vv {
+  outline: 1px solid navy;
+}
+
+/* line 26, ../sass/style.scss */
+.Cc {
+  border: 1px solid orangered;
+}
+
+/* line 30, ../sass/style.scss */
+p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrometal Energetyka SA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+          href="assets/includes/bootstrap-4.4.1/css/bootstrap.min.css">
+    <link href="assets/dist/select2.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        @media all and (-ms-high-contrast: none) {
+
+            .ie-margin-slide-top {
+                margin-top: 1em;
+            }
+
+            *::-ms-backdrop, .ie-margin-slide-top {
+                margin-top: 1em;
+            }
+
+            /*.header {font-size:13px;}
+
+            *::-ms-backdrop, .header {font-size:13px;}*/
+
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm custom">
+        <div class="container">
+
+            <a class="navbar-brand p-0" href="#">
+                <img src="assets/img/Logo.png" alt="Logo" height="47">
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                OPEN
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-n4">
+                    <li class="nav-item px-4">
+                        <p class="topic">
+                            do końca sesji:
+                        </p>
+                        <p class="caption">
+                            <span class="color-red">0:23:45</span> (13:45)
+                        </p>
+
+                    </li>
+                    <li class="nav-item px-4 dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#" id="navbarDropdownMenuLink"
+                           role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <span class="topic">
+                                zalogowany jako
+                            </span>
+                            <span class="caption">
+                                Techmet Sp. z o.o.
+                            </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Profil</a>
+                            <a class="dropdown-item" href="#">Import/export</a>
+                            <a class="dropdown-item" href="#">Resetuj konfigurację</a>
+                            <a class="dropdown-item" href="#">Wyloguj</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+</header>
+<div class="container">
+    <div class="wrapper xl mb-5">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <h2 class="mb-4 pb-2">
+                    e²TANGO-800
+                </h2>
+                <div class="img-wrapper mb-4 pb-2">
+                    <img src="assets/img/tango800.png" alt="tango">
+                </div>
+                <div class="btng-container mx-n3">
+                    <button type="button" class="btn  mx-3 btn-secondary custom">Podgląd</button>
+                    <button type="button" class="btn  mx-3 btn-danger custom">Import</button>
+                    <button type="button" class="btn  mx-3 btn-danger custom">Export</button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+                <h5 class="mb-3">
+                    Zaproszenie do sesji
+                </h5>
+                <p class="mb-4">
+                    Vestibulum sed rhoncus quam. Fusce dignissim eget <br>
+                    tortor nec iaculis. Duis rutrum felis sed lorem tempus, <br>
+                    eget pulvinar mauris ornare.
+                </p>
+
+                <h5 class="mb-3">
+                    Symulowanie
+                </h5>
+                <form>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select1" class="label pl-2">
+                                I1, 2, 3 (A)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select1">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+<!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="20" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select2" class="label pl-2">
+                                U1, 2, 3 (V)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select2">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+<!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="60" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select3" class="label pl-2">
+                                U0 (V)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select3">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+<!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="35" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select4" class="label pl-2">
+                                I0 (mA)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select4">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+                            <!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="1" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select5" class="label pl-2">
+                                Y0 (m5)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select5">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+                            <!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="1" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select6" class="label pl-2">
+                                φ0 (°)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select6">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+                            <!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="1" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select7" class="label pl-2">
+                                Ig (A)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select7">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+                            <!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="1" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-12">
+                            <label for="select8" class="label pl-2">
+                                f (Hz)
+                            </label>
+                        </div>
+                        <div class="col-4">
+
+                            <select class="select form-control custom"
+                                    name="state" id="select8">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </div>
+                        <div class="col-8">
+                            <!--                            <input type="range" class="custom-range" value="2" min="0" max="100" step="1">-->
+                            <input type="range" class="istyle"value="1" min="0" max="100" step="1" />
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex justify-content-end pt-3">
+                        <button type="submit" class="btn btn-danger custom">Start symulacji</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/includes/jquery-3.3.1.min.js"></script>
+<script src="assets/includes/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+<script src="assets/dist/select2.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.select').select2();
+
+    });
+    $('.select').select2({
+        placeholder: 'Select an option'
+    });
+
+</script>
+
+</body>
+
+</html>

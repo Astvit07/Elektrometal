@@ -1,0 +1,52 @@
+/* line 11, ../sass/color.scss */
+.color-red {
+  color: #D9534F;
+}
+
+/* line 3, ../sass/button.scss */
+.custom.btn {
+  height: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 4, ../sass/button.scss */
+.custom.btn:hover, .custom.btn:focus {
+  box-shadow: unset;
+}
+/* line 8, ../sass/button.scss */
+.custom.btn:not(:disabled):not(.disabled):active, .custom.btn:not(:disabled):not(.disabled).active {
+  box-shadow: unset;
+}
+/* line 13, ../sass/button.scss */
+.custom.btn:not(:disabled):not(.disabled):active:focus, .custom.btn:not(:disabled):not(.disabled).active:focus {
+  box-shadow: unset;
+}
+/* line 28, ../sass/button.scss */
+.custom.btn.btn-danger {
+  background-color: #D9534F;
+  border-color: #D9534F;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 34, ../sass/button.scss */
+.custom.btn.btn-danger:active {
+  color: white;
+  background-color: #D9534F;
+  border-color: #D9534F;
+}
+/* line 41, ../sass/button.scss */
+.custom.btn.btn-secondary {
+  background-color: #EEE;
+  border-color: #EEE;
+  color: #404040;
+}
+/* line 46, ../sass/button.scss */
+.custom.btn.btn-secondary:active {
+  color: black;
+  background-color: #EEE;
+  border-color: #EEE;
+}

@@ -1,0 +1,49 @@
+@import "color";
+
+.navbar.custom{
+  height: 80px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 20px -8px rgba(194, 194, 194, 0.5);
+  margin-bottom: 25px;
+  .navbar-brand{}
+  .navbar-toggler{}
+  .collapse{
+    justify-content: flex-end;
+    .navbar-nav{
+      align-items: center;
+      .nav-item{
+        &.dropdown{
+          border-left: 1px solid $gray;
+          .nav-link{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+            &:after{
+              position: absolute;
+              bottom: 10px;
+              right: 25px;
+              border: unset;
+              content: "";
+              width: 12px;
+              height: 12px;
+              background: url("../img/arrows-down.svg")no-repeat center;
+              background-size: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu.show{
+  padding: 16px 0;
+  a{
+    padding: 6px 16px;
+    color: $black;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+
+  }
+}

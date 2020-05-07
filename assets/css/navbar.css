@@ -1,0 +1,55 @@
+/* line 11, ../sass/color.scss */
+.color-red {
+  color: #D9534F;
+}
+
+/* line 3, ../sass/navbar.scss */
+.navbar.custom {
+  height: 80px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 20px -8px rgba(194, 194, 194, 0.5);
+  margin-bottom: 25px;
+}
+/* line 10, ../sass/navbar.scss */
+.navbar.custom .collapse {
+  justify-content: flex-end;
+}
+/* line 12, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav {
+  align-items: center;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown {
+  border-left: 1px solid #CDCBCB;
+}
+/* line 17, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown .nav-link {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+/* line 21, ../sass/navbar.scss */
+.navbar.custom .collapse .navbar-nav .nav-item.dropdown .nav-link:after {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  border: unset;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url("../img/arrows-down.svg") no-repeat center;
+  background-size: 100%;
+}
+
+/* line 39, ../sass/navbar.scss */
+.dropdown-menu.show {
+  padding: 16px 0;
+}
+/* line 41, ../sass/navbar.scss */
+.dropdown-menu.show a {
+  padding: 6px 16px;
+  color: #404040;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+}

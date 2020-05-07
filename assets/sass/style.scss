@@ -1,0 +1,32 @@
+@import "select";
+@import "button";
+@import "navbar";
+@import "range";
+
+@import "color";
+@import "heading";
+@import "default";
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $black;
+
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+  background-color: $bg-color-white;
+
+}
+
+.Vv {
+  outline: 1px solid navy;
+}
+
+.Cc {
+  border: 1px solid orangered;
+}
+
+p {
+  margin-bottom: 0;
+}

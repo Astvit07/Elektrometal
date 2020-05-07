@@ -1,0 +1,118 @@
+@import "color";
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+/*  background-color:transparent;
+  color:white;*/
+}
+
+
+.select2-dropdown {
+  background-color: white;
+  border: unset;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #CDCBCB;
+
+  .select2-results__options{
+    background-color: white;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+
+    .select2-results__option{
+      &:hover,&:active{
+        color: black;
+        background-color: $gray2;
+      }
+      &:last-child{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+
+
+
+    }
+  }
+}
+
+.select2{
+  .selection{
+
+  }
+  .select2-selection {
+    background-color: transparent;
+    height: 40px;
+    border: 1px solid #CDCBCB;
+    border-radius: 5px;
+    box-shadow: unset;
+
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    &:focus{
+      outline: unset!important;
+    }
+  }
+}
+.select2-container--default{
+  //width: 100% !important;
+}
+
+.select2-container--default
+.select2-selection--single
+.select2-selection__rendered {
+  color:$black;
+  line-height: 40px;
+
+}
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow {
+  height:40px;
+  width:35px;
+}
+
+.select2-search {
+  display: none;
+}
+
+
+.select2-container--default
+.select2-results__option[aria-selected=true] {
+background-color: unset;
+}
+
+.select2-selection.select2-selection--single{
+
+  .select2-selection__arrow {
+    border-left: 1px solid #CDCBCB;
+    width: 40px!important;
+  }
+    b{
+    display: none;
+  }
+  &[aria-expanded='true']{
+    .select2-selection__arrow{
+      transform: rotate(180deg);
+      background: url("../img/arrows-down.svg") no-repeat center;
+      border-right: 1px solid #CDCBCB;
+      border-left:unset ;
+    }
+  }
+  &[aria-expanded='false']{
+    .select2-selection__arrow{
+      background: url("../img/arrows-down.svg") no-repeat center;
+    }
+  }
+}
+
+
+
+
+.select2-container--default
+.select2-results__option--highlighted[aria-selected] {
+  background-color: white;
+  color: $black;
+}
+

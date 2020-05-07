@@ -1,0 +1,108 @@
+/* line 11, ../sass/color.scss */
+.color-red {
+  color: #D9534F;
+}
+
+/* line 2, ../sass/select.scss */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  /*  background-color:transparent;
+    color:white;*/
+}
+
+/* line 8, ../sass/select.scss */
+.select2-dropdown {
+  background-color: white;
+  border: unset;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #CDCBCB;
+}
+/* line 16, ../sass/select.scss */
+.select2-dropdown .select2-results__options {
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+/* line 23, ../sass/select.scss */
+.select2-dropdown .select2-results__options .select2-results__option:hover, .select2-dropdown .select2-results__options .select2-results__option:active {
+  color: black;
+  background-color: #EEE;
+}
+/* line 27, ../sass/select.scss */
+.select2-dropdown .select2-results__options .select2-results__option:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 43, ../sass/select.scss */
+.select2 .select2-selection {
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  box-shadow: unset;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+/* line 53, ../sass/select.scss */
+.select2 .select2-selection:focus {
+  outline: unset !important;
+}
+
+/* line 62, ../sass/select.scss */
+.select2-container--default
+.select2-selection--single
+.select2-selection__rendered {
+  color: #404040;
+  line-height: 40px;
+}
+
+/* line 69, ../sass/select.scss */
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow {
+  height: 40px;
+  width: 35px;
+}
+
+/* line 76, ../sass/select.scss */
+.select2-search {
+  display: none;
+}
+
+/* line 81, ../sass/select.scss */
+.select2-container--default
+.select2-results__option[aria-selected=true] {
+  background-color: unset;
+}
+
+/* line 88, ../sass/select.scss */
+.select2-selection.select2-selection--single .select2-selection__arrow {
+  border-left: 1px solid #CDCBCB;
+  width: 40px !important;
+}
+/* line 92, ../sass/select.scss */
+.select2-selection.select2-selection--single b {
+  display: none;
+}
+/* line 96, ../sass/select.scss */
+.select2-selection.select2-selection--single[aria-expanded='true'] .select2-selection__arrow {
+  transform: rotate(180deg);
+  background: url("../img/arrows-down.svg") no-repeat center;
+  border-right: 1px solid #CDCBCB;
+  border-left: unset;
+}
+/* line 104, ../sass/select.scss */
+.select2-selection.select2-selection--single[aria-expanded='false'] .select2-selection__arrow {
+  background: url("../img/arrows-down.svg") no-repeat center;
+}
+
+/* line 113, ../sass/select.scss */
+.select2-container--default
+.select2-results__option--highlighted[aria-selected] {
+  background-color: white;
+  color: #404040;
+}
