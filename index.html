@@ -93,9 +93,9 @@
                     <img src="assets/img/tango800.png" alt="tango">
                 </div>
                 <div class="btng-container mx-n3">
-                    <button type="button" class="btn  mx-3 btn-secondary custom">Podgląd</button>
-                    <button type="button" class="btn  mx-3 btn-danger custom">Import</button>
-                    <button type="button" class="btn  mx-3 btn-danger custom">Export</button>
+                    <button type="button" data-toggle="modal" data-target="#imgPreView" class="btn mx-3 btn-secondary custom">Podgląd</button>
+                    <button type="button" class="btn mx-3 btn-danger custom">Import</button>
+                    <button type="button" class="btn mx-3 btn-danger custom">Export</button>
                 </div>
             </div>
             <div class="col-12 col-lg-5 mb-4 mb-lg-0">
@@ -279,6 +279,16 @@
                     </div>
 
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imgPreView" tabindex="-1" role="dialog" aria-labelledby="imgPreViewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="assets/img/modalImg.jpg" alt="">
             </div>
         </div>
     </div>

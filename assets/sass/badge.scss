@@ -1,0 +1,14 @@
+.badge{
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &.badge-rejected{
+      background-color: #FF8383;
+  }
+  &.badge-accepted{
+    background-color: #BBF095;
+  }
+}

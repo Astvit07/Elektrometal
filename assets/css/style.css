@@ -107,6 +107,11 @@
   color: #404040;
 }
 
+/* line 119, ../sass/select.scss */
+.select.form-control.custom.block + .select2 {
+  width: 100% !important;
+}
+
 /* line 3, ../sass/button.scss */
 .custom.btn {
   height: 40px;
@@ -319,6 +324,82 @@ input[type=range]:focus::-ms-fill-upper {
   background: linear-gradient(270deg, #FF8A86 0%, #FFEE8D 48.19%, #90FF7F 100%);
 }
 
+/* line 1, ../sass/rightSidebar.scss */
+.right-sidebar {
+  width: 520px;
+  background-color: white;
+  margin-left: 16px;
+  padding: 32px;
+  height: calc(100vh - 100px);
+}
+
+/* line 4, ../sass/table.scss */
+.table.custom thead tr th {
+  color: #D9534F;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+/* line 18, ../sass/table.scss */
+.table.custom tbody tr td .item-td {
+  color: #404040;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+/* line 1, ../sass/badge.scss */
+.badge {
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* line 8, ../sass/badge.scss */
+.badge.badge-rejected {
+  background-color: #FF8383;
+}
+/* line 11, ../sass/badge.scss */
+.badge.badge-accepted {
+  background-color: #BBF095;
+}
+
+/* line 2, ../sass/modal.scss */
+.modal.custom .modal-header {
+  padding: 40px 20px 24px 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: unset;
+}
+/* line 8, ../sass/modal.scss */
+.modal.custom .modal-body {
+  padding: 0 100px 40px;
+}
+
+/* line 1, ../sass/input.scss */
+.form-control.custom {
+  height: 40px;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+/* line 8, ../sass/input.scss */
+.form-control.custom:focus {
+  box-shadow: unset;
+}
+
+/* line 13, ../sass/input.scss */
+textarea.custom {
+  width: 100%;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
 /* line 3, ../sass/heading.scss */
 .topic {
   text-transform: uppercase;
@@ -402,7 +483,7 @@ img {
   max-width: 100%;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   color: #404040;
@@ -412,17 +493,17 @@ body {
   background-color: #F8F8F8;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .Vv {
   outline: 1px solid navy;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .Cc {
   border: 1px solid orangered;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 p {
   margin-bottom: 0;
 }

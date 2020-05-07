@@ -116,3 +116,7 @@ background-color: unset;
   color: $black;
 }
 
+.select.form-control.custom.block + .select2{
+  width: 100% !important;
+
+}

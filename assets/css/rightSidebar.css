@@ -1,0 +1,8 @@
+/* line 1, ../sass/rightSidebar.scss */
+.right-sidebar {
+  width: 520px;
+  background-color: white;
+  margin-left: 16px;
+  padding: 32px;
+  height: calc(100vh - 100px);
+}

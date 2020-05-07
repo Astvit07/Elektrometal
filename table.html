@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrometal Energetyka SA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+          href="assets/includes/bootstrap-4.4.1/css/bootstrap.min.css">
+    <link href="assets/dist/select2.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        @media all and (-ms-high-contrast: none) {
+
+            .ie-margin-slide-top {
+                margin-top: 1em;
+            }
+
+            *::-ms-backdrop, .ie-margin-slide-top {
+                margin-top: 1em;
+            }
+
+            /*.header {font-size:13px;}
+
+            *::-ms-backdrop, .header {font-size:13px;}*/
+
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden">
+<header>
+    <nav class="navbar navbar-expand-sm custom">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                OPEN
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-n4">
+                    <li class="nav-item px-4 dropdown border-0">
+                        <a class="nav-link dropdown-toggle"
+                           href="#" id="navbarDropdownMenuLink"
+                           role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <span class="topic">
+                                zalogowany jako
+                            </span>
+                            <span class="caption">
+                                Techmet Sp. z o.o.
+                            </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Profil</a>
+                            <a class="dropdown-item" href="#">Import/export</a>
+                            <a class="dropdown-item" href="#">Resetuj konfigurację</a>
+                            <a class="dropdown-item" href="#">Wyloguj</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid d-flex justify-content-end ">
+
+    <div class="wrapper xl mb-5 mr-3 w-100">
+        <table class="table custom">
+            <thead>
+            <tr>
+                <th scope="col" class="p-1">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                </th>
+
+                <th scope="col" class="">
+                    Nazwa firmy
+                </th>
+                <th scope="col">
+                    Rodzaj sprzętu
+                </th>
+                <th scope="col">Data testu</th>
+                <th scope="col">status</th>
+                <th scope="col">|</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="pt-2 pl-1">
+                    <div class="item-td">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                            <label class="custom-control-label" for="customCheck2"></label>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p class="font-semibold">
+                            Techmet Sp. z o.o.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p>
+                            e²TANGO-800
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p>
+                            18-12-2019, 13:30
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <span class="badge badge-rejected">Odrzucone</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        |
+                    </div>
+                </td>
+                <!---->
+            </tr>
+            <!--++--++-->
+            <tr>
+                <td class="pt-2 pl-1">
+                    <div class="item-td">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3"></label>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p class="font-semibold">
+                            Techmet Sp. z o.o.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p>
+                            e²TANGO-800
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <p>
+                            18-12-2019, 13:30
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        <span class="badge badge-accepted">Zaakceptowane</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-td">
+                        |
+                    </div>
+                </td>
+                <!---->
+            </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="right-sidebar ml-3 mr-n3 mt-n4">
+        <h5 class="mb-4">
+            Szczegóły zapytania
+        </h5>
+        <p class="label text-uppercase pl-2 mb-2">Status</p>
+        <h6 class="mb-3">Dane firmy</h6>
+
+        <p class="label text-uppercase pl-2 mb-2">Nazwa firmy</p>
+        <p class="mb-3">
+            Techmet Sp. z o.o.
+        </p>
+
+        <p class="label text-uppercase pl-2 mb-2">adres firmy</p>
+        <p>
+            ul. Skierniewicka 10a
+        </p>
+        <p class="mb-3">
+            01-230 Warszawa
+        </p>
+
+        <p class="label text-uppercase pl-2 mb-2">NIP</p>
+        <p class="mb-3">
+            5252759135
+        </p>
+
+        <h6 class="mb-3">Dane osoby kontaktowej</h6>
+
+        <p class="label text-uppercase pl-2 mb-2">Imię i nazwisko</p>
+        <p class="mb-3">
+            Jan Kowalski
+        </p>
+
+        <p class="label text-uppercase pl-2 mb-2">adres e-mail</p>
+        <p class="mb-3">
+            jan.kowalski@techmet.com
+        </p>
+
+        <p class="label text-uppercase pl-2 mb-2">numer telefonu</p>
+        <p class="mb-3">
+            +48 505 606 707
+        </p>
+        <h6 class="mb-3">Rodzaj sprzętu</h6>
+
+        <p class="label text-uppercase pl-2 mb-2">model</p>
+        <p class="mb-3">
+            e²TANGO-800
+        </p>
+
+        <h6 class="mb-3">Data testu</h6>
+
+        <p class="label text-uppercase pl-2 mb-2">data i godzina</p>
+        <p class="mb-3">
+            18-12-2019, 13:30
+        </p>
+
+        <button type="button" data-toggle="modal" data-target="#modalForm" class="btn  btn-danger custom btn-block">
+            Wyślij link aktywacyjny
+        </button>
+
+    </div>
+</div>
+
+
+<div class="modal fade custom" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalFormLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2>
+                    Zapytanie
+                </h2>
+                <div class=" d-flex">
+
+                    <p>Masz konto?</p>
+                    <a href="#" class="ml-2">
+                        Zaloguj się
+                    </a>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h4>Dane firmy</h4>
+                <label for="input1" class="label text-uppercase pl-2">Nazwa firmy</label>
+                <input type="text" class="form-control custom mb-3" id="input1">
+
+                <label for="input2" class="label text-uppercase pl-2">adres firmy</label>
+                <input type="text" class="form-control custom mb-3" id="input2">
+                <div class="row mb-3">
+                    <div class="col-lg-4">
+                        <label for="input3" class="label text-uppercase pl-2">kod pocztowy</label>
+                        <input type="text" class="form-control custom" id="input3">
+                    </div>
+                    <div class="col-lg-8">
+                        <label for="input4" class="label text-uppercase pl-2">miejscowość</label>
+                        <input type="text" class="form-control custom" id="input4">
+                    </div>
+                </div>
+
+                <h4 class="mb-3">Dane osoby kontaktowej</h4>
+
+                <label for="input5" class="label text-uppercase pl-2">Imię i nazwisko</label>
+                <input type="text" class="form-control custom mb-3" id="input5">
+
+                <label for="input6" class="label text-uppercase pl-2">adres e-mail</label>
+                <input type="text" class="form-control custom mb-3" id="input6">
+
+                <label for="input7" class="label text-uppercase pl-2">numer telefonu</label>
+                <input type="text" class="form-control custom mb-3" id="input7">
+                <h4 class="mb-3">Rodzaj sprzętu</h4>
+
+                <div class="custom-control custom-radio ">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">Toggle this custom radio</label>
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <label for="select1" class="label text-uppercase pl-2">
+                            dodatkowe wyposażenie
+                        </label>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <select class="select form-control custom block"
+                                name="state" id="select1">
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                        </select>
+                    </div>
+                </div>
+                <label for="textarea1" class="label text-uppercase pl-2">
+                    uwagi
+                </label>
+                <textarea name="" id="" cols="30" rows="5" class="custom mb-3" id="textarea1"></textarea>
+                <h4 class="mb-3">Data testu</h4>
+
+
+                <label for="input8" class="label text-uppercase pl-2">Imię i nazwisko</label>
+                <input type="text" class="form-control custom mb-4" id="input8">
+                <button type="button" class="btn btn-danger custom btn-block">Złóż zapytanie</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/includes/jquery-3.3.1.min.js"></script>
+<script src="assets/includes/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+<script src="assets/dist/select2.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.select').select2();
+
+    });
+    $('.select').select2({
+        placeholder: 'Select an option'
+    });
+
+</script>
+
+</body>
+
+</html>

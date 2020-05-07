@@ -1,0 +1,163 @@
+$size-checkbox: 14px;
+$size-radio: 14px;
+$size-radius-radio: 8px;
+$fsz-label: 14px;
+$c-radio: blue;
+$c-border:red;
+.d-flex {
+  .custom-checkbox,
+  .custom-radio {
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+.custom-checkbox,
+.custom-radio {
+  margin-bottom: 8px;
+
+  .custom-control-label {
+    font-size: $fsz-label;
+    line-height: $size-checkbox;
+    padding-left: 10px;
+    text-transform: unset;
+    color: inherit;
+    margin-left: $size-checkbox;
+
+    &:before {
+      border-radius: 0;
+      border-color: $c-border;
+      border-width: 1px;
+      width: $size-checkbox;
+      height: $size-checkbox;
+      left: -$size-checkbox;
+      top: 0;
+      bottom: 0;
+      background: transparent;
+    }
+
+    &:after {
+      width: $size-checkbox;
+      height: $size-checkbox;
+      left: -$size-checkbox;
+    }
+
+  }
+
+  input:checked + .custom-control-label {
+    &:before {
+      border-color: $c-border;
+      border-width: 1px;
+      width: $size-checkbox;
+      height: $size-checkbox;
+      left: -$size-checkbox;
+      top: 0;
+      bottom: 0;
+      background: transparent;
+    }
+
+    &:after {
+      width: $size-checkbox;
+      height: $size-checkbox;
+      left: -$size-checkbox;
+      top: 0;
+
+    }
+  }
+}
+
+
+.custom-radio {
+  .custom-control-input {
+    width: $size-radio;
+    height: $size-radio;
+    left: -$size-radio;
+  }
+
+  .custom-control-label {
+    line-height: $size-radio;
+
+    &:before {
+      width: $size-radio;
+      height: $size-radio;
+      left: -$size-radio;
+      border-radius: 50%;
+    }
+
+    &:after {
+      width: $size-radio;
+      height: $size-radio;
+      left: -$size-radio;
+    }
+  }
+
+  .custom-control-input {
+    &:checked + .custom-control-label {
+      &:before {
+        background: transparent;
+        width: $size-radio;
+        height: $size-radio;
+        left: -$size-radio;
+      }
+
+      &:after {
+        width: $size-radius-radio;
+        height: $size-radius-radio;
+        left: -($size-radio - ($size-radio - $size-radius-radio) / 2);
+        top: ($size-radio - $size-radius-radio) / 2;
+        border-radius: 50%;
+        background-color: $c-radio;
+        background-image: unset !important;
+      }
+    }
+  }
+
+}
+
+.custom-checkbox {
+  .custom-control-input {
+  }
+
+  .custom-control-label {
+    &:before {
+      border-radius: 5px;
+    }
+
+    &:after {
+      background-image: unset;
+      top: 0;
+    }
+  }
+
+  .custom-control-input:checked + .custom-control-label {
+    &:before {
+    }
+
+    &:after {
+      background: transparent url("/assets/img/icons/checked.svg") 0 0 no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.custom-control-input:focus:not(:checked) ~
+.custom-control-label::before {
+  border-color: $c-border;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: unset;
+}
+
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: $c-border;
+}
+
+//todo добавить
+//      радиус для чекбокса
+//        цвет лейбла
+//          цвет радио
+//            размер галочки
+//

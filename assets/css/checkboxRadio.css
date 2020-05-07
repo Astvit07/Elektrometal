@@ -1,0 +1,134 @@
+/* line 10, ../sass/checkboxRadio.scss */
+.d-flex .custom-checkbox:first-child,
+.d-flex .custom-radio:first-child {
+  padding-left: 0;
+}
+
+/* line 16, ../sass/checkboxRadio.scss */
+.custom-checkbox,
+.custom-radio {
+  margin-bottom: 8px;
+}
+/* line 20, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-label,
+.custom-radio .custom-control-label {
+  font-size: 14px;
+  line-height: 14px;
+  padding-left: 10px;
+  text-transform: unset;
+  color: inherit;
+  margin-left: 14px;
+}
+/* line 28, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-label:before,
+.custom-radio .custom-control-label:before {
+  border-radius: 0;
+  border-color: red;
+  border-width: 1px;
+  width: 14px;
+  height: 14px;
+  left: -14px;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+}
+/* line 40, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-label:after,
+.custom-radio .custom-control-label:after {
+  width: 14px;
+  height: 14px;
+  left: -14px;
+}
+/* line 49, ../sass/checkboxRadio.scss */
+.custom-checkbox input:checked + .custom-control-label:before,
+.custom-radio input:checked + .custom-control-label:before {
+  border-color: red;
+  border-width: 1px;
+  width: 14px;
+  height: 14px;
+  left: -14px;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+}
+/* line 60, ../sass/checkboxRadio.scss */
+.custom-checkbox input:checked + .custom-control-label:after,
+.custom-radio input:checked + .custom-control-label:after {
+  width: 14px;
+  height: 14px;
+  left: -14px;
+  top: 0;
+}
+
+/* line 72, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-input {
+  width: 14px;
+  height: 14px;
+  left: -14px;
+}
+/* line 78, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-label {
+  line-height: 14px;
+}
+/* line 81, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-label:before {
+  width: 14px;
+  height: 14px;
+  left: -14px;
+  border-radius: 50%;
+}
+/* line 88, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-label:after {
+  width: 14px;
+  height: 14px;
+  left: -14px;
+}
+/* line 97, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-input:checked + .custom-control-label:before {
+  background: transparent;
+  width: 14px;
+  height: 14px;
+  left: -14px;
+}
+/* line 104, ../sass/checkboxRadio.scss */
+.custom-radio .custom-control-input:checked + .custom-control-label:after {
+  width: 8px;
+  height: 8px;
+  left: -11px;
+  top: 3px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: unset !important;
+}
+
+/* line 123, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-label:before {
+  border-radius: 5px;
+}
+/* line 127, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-label:after {
+  background-image: unset;
+  top: 0;
+}
+/* line 137, ../sass/checkboxRadio.scss */
+.custom-checkbox .custom-control-input:checked + .custom-control-label:after {
+  background: transparent url("/assets/img/icons/checked.svg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+/* line 144, ../sass/checkboxRadio.scss */
+.custom-control-input:focus:not(:checked) ~
+.custom-control-label::before {
+  border-color: red;
+}
+
+/* line 149, ../sass/checkboxRadio.scss */
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: unset;
+}
+
+/* line 153, ../sass/checkboxRadio.scss */
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: red;
+}

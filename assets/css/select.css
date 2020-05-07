@@ -106,3 +106,8 @@
   background-color: white;
   color: #404040;
 }
+
+/* line 119, ../sass/select.scss */
+.select.form-control.custom.block + .select2 {
+  width: 100% !important;
+}

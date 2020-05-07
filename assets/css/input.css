@@ -1,0 +1,19 @@
+/* line 1, ../sass/input.scss */
+.form-control.custom {
+  height: 40px;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+/* line 8, ../sass/input.scss */
+.form-control.custom:focus {
+  box-shadow: unset;
+}
+
+/* line 13, ../sass/input.scss */
+textarea.custom {
+  width: 100%;
+  border: 1px solid #CDCBCB;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}

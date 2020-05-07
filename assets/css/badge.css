@@ -1,0 +1,17 @@
+/* line 1, ../sass/badge.scss */
+.badge {
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* line 8, ../sass/badge.scss */
+.badge.badge-rejected {
+  background-color: #FF8383;
+}
+/* line 11, ../sass/badge.scss */
+.badge.badge-accepted {
+  background-color: #BBF095;
+}
